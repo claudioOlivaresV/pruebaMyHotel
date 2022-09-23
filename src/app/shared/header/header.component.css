@@ -1,0 +1,6 @@
+.example-container {
+    height: calc(100% - 64px)
+}
+.example {
+    width: 300px;
+}

@@ -1,0 +1,14 @@
+
+
+.mat-chip.mat-standard-chip::after {
+    background: #0000;
+}
+.full-page {
+    height: calc(100vh - 132px)
+}
+.fab-container {
+    position:fixed;
+    bottom:20px;
+    right:10px;
+    cursor:pointer;
+}

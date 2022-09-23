@@ -1,0 +1,7 @@
+<h1 mat-dialog-title>Eliminar</h1>
+<div mat-dialog-content>¿Está seguro de querer eliminar a {{data}}?</div>
+<div mat-dialog-actions class="d-flex justify-content-end">
+  <button mat-button mat-dialog-close>No</button>
+  <button mat-raised-button color="warn" [mat-dialog-close]="true" cdkFocusInitial>Sí</button>
+
+</div>
